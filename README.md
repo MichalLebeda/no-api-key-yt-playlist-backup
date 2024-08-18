@@ -35,10 +35,14 @@ Run
 
 Check the execution logs or inspect the `data/database.db` file using tool such as [DB Browser for Sqlite](https://sqlitebrowser.org/).
 
-**TIP: Configure a Cron job for periodical checks**
+**TIP**: Configure a Cron job for periodical checks   
+**NOTE**: Private playlists produce error which is logged and also inserted into `error` DB table but does not stop the program
 
 ## Todo
 
 - Optionally backup video files, not just metadata
-- Use ORM with migrates  
+- Use ORM with migrates
 - Use Python package
+- CLI arguments
+- More transparent
+- Diff reports
